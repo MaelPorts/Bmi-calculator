@@ -1,0 +1,54 @@
+body {
+  background-color: bisque;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh; /* This ensures the container takes up the full height of the viewport */
+  margin: 0; /* Remove default margin to avoid unwanted spacing */
+}
+
+#calculator-container {
+  background-color: white;
+  padding: 20px; /* Adjust padding to create space inside the container */
+  border-radius: 8px; /* Optional: Add rounded corners for a nicer look */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Optional: Add a subtle shadow for depth */
+}
+
+#calculator-container h1 {
+  text-align: center; /* Center the heading within the container */
+}
+
+#calculator-container label {
+  display: block; /* Ensure labels appear on new lines */
+  margin-top: 10px; /* Add some space between labels and input fields */
+}
+
+#calculator-container input {
+  width: 100%; /* Make input fields span the full width of the container */
+  box-sizing: border-box; /* Include padding and border in the input's total width */
+  margin-bottom: 10px; /* Add some space between input fields */
+}
+
+#calculator-container button {
+  width: 100%; /* Make the button span the full width of the container */
+  padding: 10px; /* Add some padding for a more clickable area */
+  background-color: #4CAF50; /* Green background color */
+  color: white; /* White text color */
+  border: none; /* Remove border */
+  border-radius: 4px; /* Optional: Add rounded corners */
+  cursor: pointer; /* Change cursor to pointer on hover */
+}
+
+#calculator-container button:hover {
+  background-color: #45a049; /* Darker green on hover */
+}
+
+
+#result {
+  text-align: center; /* Center the result within the container */
+  margin-top: 20px; /* Add some space between the button and the result */
+}
+
+#calculator-container h6 {
+  text-align: center;
+}
